@@ -13,7 +13,53 @@
 
     <header id="main-header">
         <h1>Welcome to Steller Solutions</h1>
+
+        <!--Navigation Menue-->
+        <nav id="main-nav">
+            <a href="index.html">Home</a>
+            <a href="about.hml">About us</a>
+            <a href="#contact">Contact</a> <!--internal link to the correct section-->
+
+          
+            
+        </nav>
     </header>
+
+    <hr>
+
+    <!--Introduction section-->
+    <section id="intro-section">
+        <h2>Your Partner in innovation</h2> <!--Section Heading-->
+        <p>
+            At Stellar Solutions, we provide <strong>cutting edge</strong> solutions for modern bussinesses.
+            From sogtware development to <em>creative design</em>, out team is dedicated to excellence.
+        </p>
+
+        <!--Image referencing teamwork-->
+        <img src="images/teamwork.jpg"
+        alt="Team working together on a project."
+        style="max-width: 100%; height: auto;"> <!--Ensures image scales responsively-->
+
+    </section>
+
+    <hr>
+
+    <!--Contact section-->
+    <section id="contact-section">
+        <h2>Get in touch</h2>
+        <p>Have a project in mind? Fill out our contact form below and we will get back to you</p>
+
+        <!--Contact Form-->
+        <form id="contact form" action="/submit-contact" method="post">
+            <label for="email">Your email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="5" required></textarea><br><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
 
 
     
